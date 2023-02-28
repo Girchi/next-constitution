@@ -28,6 +28,10 @@ export default function App({ Component, pageProps }) {
           <title>{`${pageProps.title} - Protocol API Reference`}</title>
         )}
         <meta name="description" content={pageProps.description} />
+
+        <meta property="og:title" content={pageProps.title} />
+        <meta property="og:description" content={pageProps.description} />
+        <meta property="og:image" content="/konstitucia-min.png" />
       </Head>
       <MDXProvider components={mdxComponents}>
         <Layout {...pageProps}>

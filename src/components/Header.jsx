@@ -65,8 +65,18 @@ export const Header = forwardRef(function Header({ className }, ref) {
         </Link>
       </div>
       <div className="flex items-center gap-5">
+        <nav className="hidden md:block">
+          <ul role="list" className="flex items-center gap-8">
+            <TopLevelNavItem href="/">დასაწყისი</TopLevelNavItem>
+            <TopLevelNavItem href="/sakonstitucio-jgufi">საკონსტიტუციო ჯგუფი</TopLevelNavItem>
+          </ul>
+        </nav>
+        <div className="hidden md:block md:h-5 md:w-px md:bg-zinc-900/10 md:dark:bg-white/15" />
         <div className="flex gap-4">
           <ModeToggle />
+        </div>
+        <div className="hidden min-[416px]:contents">
+          <Button target="_blank" href="https://girchi.com">გირჩი</Button>
         </div>
       </div>
     </motion.div>

@@ -192,7 +192,7 @@ function SmallPrint() {
       <p className="text-xs text-zinc-600 dark:text-zinc-400">
       ჩვენ ვთქვით. 
       <br />
-      <a target="_blank" href='https://www.girchi.com/'>girchi.com</a>
+      <a target="_blank" rel="noreferrer" href='https://www.girchi.com/'>girchi.com</a>
       </p>
      
     </div>

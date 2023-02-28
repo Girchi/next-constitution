@@ -196,8 +196,8 @@ export const navigation = [
       { title: 'ამბავი VI', href: '/ambavi-vi' },
       { title: 'ამბავი VII', href: '/ambavi-vii' },
       { title: 'ამბავი VIII', href: '/ambavi-viii' },
-      { title: 'ამბავი IX', href: 'ambavi-ix' },
-      { title: 'ამბავი IX', href: 'x' },
+      { title: 'ამბავი IX', href: '/ambavi-ix' },
+      { title: 'ამბავი X', href: '/ambavi-x' },
     ],
   },
 ]
